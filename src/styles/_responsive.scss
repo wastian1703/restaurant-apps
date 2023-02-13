@@ -1,0 +1,60 @@
+@media screen and (min-width: 650px) {
+  app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+
+  .app-bar__button {
+    display: none;
+  }
+  .app-bar__nav {
+    position: static;
+    width: 100%;
+
+    ul {
+      padding: 0;
+      li {
+        display: inline-block !important;
+
+        a {
+          display: flex;
+          width: 120px;
+          justify-content: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .restaurants {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .restaurant {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .restaurants {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  app-bar {
+    // position: relative;
+    margin: 0 auto;
+    min-width: 1200px;
+  }
+
+  .hero,
+  main {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .restaurants {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

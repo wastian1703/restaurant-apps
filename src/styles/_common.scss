@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $app-bar__height;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: $main__font;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: block;
+  padding: 50px auto 0;
+  text-align: center;
+}
+
+a:focus,
+.menu_card:focus {
+  border-radius: 3px;
+  outline: 4px solid $dark-color1;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 16px;
+  padding: 8px;
+  background-color: $secondary-color;
+  color: white;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}

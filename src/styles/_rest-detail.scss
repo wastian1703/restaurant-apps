@@ -1,0 +1,53 @@
+restaurant-detail {
+  display: grid;
+  max-width: 1200px;
+  margin: 50px 30px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px $dark-color2;
+  color: $dark-color;
+
+  h3,
+  h4,
+  p {
+    margin-bottom: $margin-buttom;
+  }
+
+  .restaurant__inner-left,
+  .restaurant__inner-right {
+    padding: 20px;
+  }
+
+  .restaurant__poster {
+    width: 100%;
+  }
+
+  .restaurant__name {
+    margin-bottom: 16px;
+  }
+
+  .restaurant__description {
+    margin: 12px 0;
+  }
+
+  .restaurant__information {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 8px;
+    margin: 12px 0;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px $dark-color2;
+    color: $dark-color;
+  }
+
+  .restaurant__menus {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding: 8px;
+    margin: 12px 0;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px $dark-color2;
+    color: $dark-color;
+  }
+}

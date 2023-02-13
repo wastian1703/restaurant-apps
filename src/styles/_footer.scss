@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $dark-color1;
+
+  .footer__copyright {
+    color: $light-color;
+    padding: $padding-card;
+    text-align: center;
+  }
+}
